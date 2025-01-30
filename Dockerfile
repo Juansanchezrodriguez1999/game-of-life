@@ -14,7 +14,7 @@ COPY . .
 RUN mvn clean package
 
 # Exponer el puerto de la aplicación (ajusta según tu aplicación)
-EXPOSE 8080
+EXPOSE 9090
 
 # Comando para ejecutar la aplicación (ajusta según cómo se ejecute tu app)
 CMD ["java", "-jar", "target/game-of-life.jar"]

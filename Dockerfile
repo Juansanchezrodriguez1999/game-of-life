@@ -17,4 +17,4 @@ RUN mvn clean package
 EXPOSE 9090
 
 # Comando para ejecutar la aplicación (ajusta según cómo se ejecute tu app)
-CMD ["java", "-jar", "target/game-of-life.jar"]
+CMD ["java", "-jar", "target/jacoco.exec"]
